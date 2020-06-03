@@ -1,0 +1,25 @@
+# Configuration for pam_multi_ldap.py
+#
+# Uses the format defined here:
+#
+#  https://docs.python.org/3/library/configparser.html
+#
+# NB: interpolation is disabled on loading.
+#
+# ## Example
+#
+# [EXAMPLE]
+# # Match this domain by the given suffix.
+# suffix = _e
+# # URI(s) for LDAP servers to try to connect to.
+# ldap_uri = ldap://ldap1.example.com,ldap://ldap1.example.com
+# # The search base to search for users.
+# ldap_search_base = DC=example,DC=com
+# # The attribute to use for comparing the (stripped) user name to.
+# ldap_user_name = sAMAccountName
+# # The distinguished name of the user to bind as.
+# ldap_bind_dn = CN=ldap-admin,OU=Users,DC=example,DC=com
+# # Password for the initial bind.
+# ldap_bind_pw = somepass
+# # Optional search filter, can be empty.
+# ldap_search_filter = objectClass=posixAccount
