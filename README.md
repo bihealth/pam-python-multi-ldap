@@ -29,7 +29,7 @@ The module has been written to work for both Python 2.7 and 3.6+.
 Put the module into `/usr/local/lib/pam-multi-ldap`
 
 ```bash
-root@host:~$ B=https://raw.githubusercontent.com/bihealth/pam-python-multi-ldap/src
+root@host:~$ B=https://raw.githubusercontent.com/bihealth/pam-python-multi-ldap/master/src
 root@host:~$ mkdir -p /usr/local/lib/pam-python-multi-ldap
 root@host:~$ curl $B/pam_multi_ldap.py \
     > /usr/local/lib/pam-python-multi-ldap/pam_multi_ldap.py
